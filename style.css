@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+
+}
+
+.container{
+    
+    padding: 20px;
+    background-color:#DFDEE2;
+    /* box-shadow: 5px 10px 8px 10px rgb(247, 240, 240); */
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+#submitButton{
+   text-align: center;
+}
+
+.registration-form{
+    margin: 10px auto;
+}
+
+@media (max-width: 470px){
+    .registration-form{
+        margin: 50px 0px;
+        width: 100%;
+        height: 100%;
+    }
+} 
+
